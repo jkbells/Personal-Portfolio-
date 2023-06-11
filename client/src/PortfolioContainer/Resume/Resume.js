@@ -53,63 +53,62 @@ const Resume = (props) => {
 
   //here we have
   const programmingSkillsDetails = [
-    { skill: "JavaScript", ratingPercentage: 85 },
-    { skill: "React JS", ratingPercentage: 85 },
-    { skill: "React Native", ratingPercentage: 85 },
-    { skill: "Express JS", ratingPercentage: 89 },
-    { skill: "Node JS", ratingPercentage: 89 },
-    { skill: "Mongo Db", ratingPercentage: 70 },
-    { skill: "Core Java", ratingPercentage: 80 },
-    { skill: "HTML", ratingPercentage: 80 },
-    { skill: "CSS", ratingPercentage: 80 },
+    { skill: "Data Science", ratingPercentage: 65 },
+    { skill: "Full Stack Developer", ratingPercentage: 85 },
+    { skill: "Mern developer", ratingPercentage: 80 },
+    { skill: "Data Visulization", ratingPercentage: 40 },
+    { skill: "Amazon Web Services(AWS)", ratingPercentage: 30 },
+    { skill: "Machine learning", ratingPercentage: 20 },
+    { skill: "Andriod Development", ratingPercentage: 40 },
+    { skill: "Digital Marketing", ratingPercentage: 50 },
+    { skill: "UI / UX Design", ratingPercentage: 80 },
   ];
 
   const projectsDetails = [
     {
+      title: " Fertilizer Recommendation System (Final Year Project)",
+      duration: { fromDate: "2023", toDate: "Present" },
+      description:
+        "In this project, I present a website in which the following applications are implemented; Fertilizer Recommendation.",
+      subHeading: "Technologies Used: Html , Css , javascript , python , Flask",
+    },
+    {
       title: "Personal Portfolio Website",
-      duration: { fromDate: "2020", toDate: "2021" },
+      duration: { fromDate: "2023", toDate: "Present" },
       description:
-        "A Personal Portfolio website to showcase all my details and projects at one place.",
-      subHeading: "Technologies Used: React JS, Bootsrap",
+        "A Personal Portfolio Website to showcase all my details and projects at one place.",
+      subHeading: "Technologies Used:  React JS, Bootsrap, Node JS",
+      
     },
     {
-      title: "Mobile E-shop ",
-      duration: { fromDate: "2020", toDate: "2021" },
+      title: "Auto Spare Parts Management system",
+      duration: { fromDate: "2021", toDate: "2022" },
       description:
-        "An ecommerce application designed to sell products online wth payment system integration",
-      subHeading:
-        "Technologies Used:  React Native, Mongo DB, Express Js, Node Js, Redux.",
-    },
-    {
-      title: "Ecommerce Website ",
-      duration: { fromDate: "2020", toDate: "2021" },
-      description:
-        "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
-      subHeading:
-        "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
+        "The purpose of this project is to develop an application program to reduce the manual work for managing inventory, product, customer, dealer and orders",
+      subHeading: "Technologies Used: Html, Css, Javascript, Scss, Php, Mysql",
     },
   ];
 
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
       <ResumeHeading
-        heading={"University of Legon Accra, Ghana"}
-        subHeading={"BACHELOR OF SCIENCE INFORMATION TECHNOLOGY"}
-        fromDate={"2014"}
-        toDate={"2018"}
+        heading={"Fast National University of Computer and Emerging Sciences "}
+        subHeading={"Bachelor of Science in Computer Science (GPA:2.3/4.0)"}
+        fromDate={"2019"}
+        toDate={"2023"}
       />
 
       <ResumeHeading
-        heading={"National Youth Service Corps"}
-        subHeading={"Ministry Of Science And Technogy. Uyo Akwa Ibom State"}
-        fromDate={"2019"}
-        toDate={"2020"}
+        heading={"Al Beruni Govt College Pind Dadan Khan"}
+        subHeading={"F.Sc (Pre Engineering) (MARKS:807/1100)"}
+        fromDate={"2018"}
+        toDate={"2019"}
       />
       <ResumeHeading
-        heading={"High School "}
-        subHeading={"Command Secondary School Mbiri"}
-        fromDate={"2007"}
-        toDate={"2012"}
+        heading={"Government High School Pind Dadan Khan "}
+        subHeading={"Matriculation (Pre Medical) (MARKS:832/1100)"}
+        fromDate={"2016"}
+        toDate={"2017"}
       />
     </div>,
 
@@ -117,34 +116,43 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"Ehizeex Technoloy"}
-          subHeading={"FULL STACK DEVELOPER INTERN"}
-          fromDate={"2021"}
-          toDate={"Present"}
+          heading={"LetsGrowMore "}
+          subHeading={"Web Developer INTERN"}
+          fromDate={"Jun 2022"}
+          toDate={"Aug 2022"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as MERN stack web and mobile developer and also an
-            online instructor on udemy.
+            - Worked with basics of HTML, CSS, Javascript and performed
+            different level of tasks that were assigned. Also learn the basics
+            of Web development through hands-on experience and guidence from
+            mentor. I gained valueable skills in coding and web development and
+            also in project management that will benifit me in my future
+            endeavor.
           </span>
         </div>
+        <span className="resume-description-text">
+          - I stretch my mental capacity to develope UI as per the given
+          designs.
+        </span>
+        <br />
+        <br />
+        <ResumeHeading
+          heading={"National University of Computer and Emerging Sciences"}
+          subHeading={"Teaching Assistant"}
+          fromDate={"2021"}
+          toDate={"2021"}
+        />
         <div className="experience-description">
           <span className="resume-description-text">
-            - Developed an ecommerce website for client with the dashboard for
-            managing the products, managing reviews, users, payment etc. .
+            - Involved in setting and checking the assignment and arranging a
+            session for students to answer their queries.
           </span>
-          <br />
-          <span className="resume-description-text">
-            - Integrated the web app with backend services to create new user
-            onboarding application with dynamic form content.{" "}
-          </span>
-          <br />
-          <span className="resume-description-text">
-            - I stretch my mental capacity to develope UI as per the given
-            designs.
-          </span>
-          <br />
         </div>
+        <span className="resume-description-text">
+          - For Programming Fundamentals course
+        </span>
+        <br />
       </div>
     </div>,
 
@@ -220,7 +228,7 @@ const Resume = (props) => {
       >
         <img
           className="bullet-logo"
-          src={require(`../../assets/Resume/${bullet.logoSrc}`).default}
+          src={require(`../../assets/Resume/${bullet.logoSrc}`)}
           alt="B"
         />
         <span className="bullet-label">{bullet.label}</span>

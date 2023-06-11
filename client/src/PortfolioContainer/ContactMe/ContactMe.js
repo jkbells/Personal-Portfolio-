@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Typical from "react-typical";
-import axios from "axios";
-import { toast } from "react-toastify";
+import axios from 'axios';
+import { toast } from 'react-toastify';
 
 import imgBack from "../../../src/images/mailz.jpeg";
 import load1 from "../../../src/images/load2.gif";
@@ -72,21 +72,25 @@ export default function ContactMe(props) {
           <h2 className="title">
             <Typical loop={Infinity} steps={["Get In Touch 📧", 1000]} />
           </h2>{" "}
-          <a href="https://web.facebook.com/?_rdc=1&_rdr">
-            <i className="fa fa-facebook-square" />
-          </a>
-          <a href="#">
-            <i className="fa fa-google-plus-square" />
-          </a>
-          <a href="https://www.instagram.com/instructor_ehizeex/">
-            <i className="fa fa-instagram" />
-          </a>
-          <a href="https://www.youtube.com/channel/UCSSr5ZDFbilpZ592_ycoAwA">
-            <i className="fa fa-youtube-square" />
-          </a>
-          <a href="https://twitter.com/Ehiedu_baba">
-            <i className="fa fa-twitter" />
-          </a>
+          <a href="https://www.facebook.com/khan.jawadkhan.509">
+                <i className="fa fa-facebook-square" />
+              </a>
+              <a href="https://github.com/jkbells">
+                {/* <i className="fa fa-google-plus-square" /> */}
+                <i className="fa fa-github"/>
+              </a>
+              <a href="https://www.instagram.com/jawadkhan.jkbells/">
+                <i className="fa fa-instagram" />
+              </a>
+              <a href="https://www.youtube.com/@marinelifelovers940/videos">
+                <i className="fa fa-youtube-square" />
+              </a>
+              <a href="https://twitter.com/KhanJawadKhan9">
+                <i className="fa fa-twitter" />
+              </a>
+              <a href="https://www.linkedin.com/in/jkbells/">
+                <i className="fa fa-linkedin" />
+              </a>
         </div>
         <div className="back-form">
           <div className="img-back">
